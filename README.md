@@ -19,6 +19,11 @@ MidiParser is a Javascript **Binary MIDI file** reader for the browser and Node 
 
 ## Example
 
+URL import
+```js
+import { MidiParser } from "https://code4fukui.github.io/midi-parser-js/src/midi-parser.js";
+```
+
 A simple example parsing a MIDI file in Node ...
 ```javascript
 let midiParser  = require('midi-parser-js');
